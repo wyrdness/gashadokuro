@@ -1,10 +1,8 @@
 {
-  "category": "UNDEAD",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/gashadokuro",
     "maintainers": [
       {
@@ -18,319 +16,110 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "gashadokuro",
     "name": "Gashadokuro",
-    "aliases": [
-      {
-        "name": "Gasha-dokuro",
-        "language": "Japanese",
-        "meaning": "Starving skeleton"
-      },
-      {
-        "name": "Odokuro",
-        "language": "Japanese",
-        "meaning": "Giant skeleton"
-      }
-    ],
+    "aliases": [],
     "category": "UNDEAD",
-    "subcategory": "Japanese Yokai / Entity Spirit",
+    "subcategory": "|",
     "tags": [
-      "yokai",
-      "japanese-folklore",
-      "undead",
-      "giant",
-      "skeleton",
-      "vengeful-spirit",
-      "nocturnal"
+      "&-themes"
     ],
-    "status": "folklore",
+    "status": "documented",
     "description": {
-      "summary": "Giant skeleton yokai formed from the bones of people who died of starvation. Standing 15 times human height, these indestructible nocturnal spirits roam seeking victims to devour, driven by the collective grudge of those who starved.",
-      "full": "Gashadokuro are enormous skeletal yokai in Japanese folklore, standing approximately 15 times the height of an average human. They form when the bones of people who died of starvation—particularly victims of war, famine, or mass death—fuse together, animated by their collective resentment and hunger. These creatures possess the ability to turn invisible and are indestructible by conventional means. They wander at night making a distinctive 'gachi gachi' rattling sound, seeking travelers to grab and devour. The only warning is a ringing in the ears. A gashadokuro cannot be destroyed but will eventually dissipate once the vengeful energy of the starved dead is exhausted. While relatively modern in yokai tradition (19th century), gashadokuro gained fame through Utagawa Kuniyoshi's 1844 woodblock print depicting Princess Takiyasha summoning a giant skeleton."
+      "summary": "These terrifying creatures possess the ability to **turn invisible** and are **indestructible** by conventional means.",
+      "full": "These terrifying creatures possess the ability to **turn invisible** and are **indestructible** by conventional means. They wander at night making a distinctive \\\"gachi gachi\\\" rattling sound, seeking travelers to grab, crush, and devour. The only warning is a **ringing in the ears** that signals a gashadokuro's approach. A gashadokuro cannot be destroyed but will eventually dissipate once the vengeful energy of the starved dead is exhausted—a process that may take years or decades."
     },
     "etymology": {
-      "origin": "From Japanese 'gasha gasha' (ガシャガシャ, rattling/clattering sound) and 'dokuro' (髑髏, skull)",
-      "meaning": "The rattling skull - named for the distinctive sound of its bones clattering",
-      "first_use": "19th century, popularized by Utagawa Kuniyoshi's artwork"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "UNDEAD",
-      "type": "Yokai",
-      "subtype": "Skeletal Entity / Vengeful Spirit",
-      "variant": "Japanese Traditional"
+      "type": "|",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "onryo",
-        "name": "Onryō",
-        "relationship": "similar",
-        "description": "Vengeful spirits in Japanese folklore"
-      },
-      {
-        "id": "goryō",
-        "name": "Goryō",
-        "relationship": "similar",
-        "description": "Aristocratic vengeful spirits"
-      },
-      {
-        "id": "skeleton",
-        "name": "Animated Skeletons",
-        "relationship": "type_similarity",
-        "description": "Skeletal undead in various cultures"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 15,
-        "max": 30,
-        "unit": "times human height (approximately 25-50 meters)",
-        "confidence": "folklore"
-      },
-      "appearance": "Enormous humanoid skeleton, stark white bones visible in moonlight",
-      "features": [
-        {
-          "feature": "Size",
-          "description": "Approximately 15 times the height of an average human",
-          "frequency": "always"
-        },
-        {
-          "feature": "Skeletal structure",
-          "description": "Complete humanoid skeleton made from fused bones of multiple victims",
-          "frequency": "always"
-        },
-        {
-          "feature": "Empty eye sockets",
-          "description": "Hollow eye sockets that glow or appear as dark voids",
-          "frequency": "always"
-        },
-        {
-          "feature": "Rattling bones",
-          "description": "Bones clatter together producing 'gachi gachi' sound",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Giant humanoid skeleton formed from multiple individual skeletons fused together through supernatural means"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Invisibility",
-        "description": "Can turn invisible at will, making detection difficult",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Indestructibility",
-        "description": "Cannot be destroyed by conventional weapons or means",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Superhuman strength",
-        "description": "Sufficient strength to grab and crush humans, bite off heads",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Ear ringing",
-        "description": "Causes ringing in ears of nearby potential victims as warning",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "hostile",
-      "hunting_pattern": "Wanders seeking lone travelers",
-      "attack_method": [
-        "Grabs victims with enormous hands",
-        "Bites off heads",
-        "Drinks blood",
-        "Crushes victims"
-      ],
-      "sound": "Distinctive 'gachi gachi' or 'gasha gasha' rattling of bones",
-      "patterns": [
-        "Active only at night",
-        "Targets isolated travelers",
-        "Driven by insatiable hunger from collective starvation",
-        "Cannot be reasoned with or appeased"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
-  "origins": {
-    "formation": {
-      "cause": "Mass death by starvation",
-      "mechanism": "Bones of multiple starvation victims fuse together through collective grudge and resentment",
-      "triggers": [
-        "War causing mass starvation",
-        "Famine killing large numbers",
-        "Siege conditions leading to starvation deaths",
-        "Any mass starvation event"
-      ]
-    },
-    "energy_source": "Collective malice and resentment of those who died hungry and forgotten",
-    "lifespan": "Exists until the vengeful energy of the victims dissipates naturally"
-  },
-
-  "vulnerabilities": {
-    "weaknesses": [
-      {
-        "weakness": "Time",
-        "description": "Eventually dissipates as the grudge energy is exhausted",
-        "effectiveness": "certain_but_slow"
-      },
-      {
-        "weakness": "Warning system",
-        "description": "Ringing in ears provides warning to flee",
-        "effectiveness": "preventative"
-      }
-    ],
-    "defenses": [
-      {
-        "method": "Avoidance",
-        "description": "Flee immediately upon hearing ear ringing or bone rattling",
-        "effectiveness": "high"
-      },
-      {
-        "method": "Stay indoors at night",
-        "description": "Gashadokuro only hunt outdoors at night",
-        "effectiveness": "high"
-      }
-    ],
-    "cannot_be_defeated": "No known method to destroy gashadokuro; must wait for natural dissipation"
-  },
-
   "distribution": {
     "range": {
-      "description": "Japanese folklore tradition; can manifest anywhere mass starvation occurred",
-      "continents": ["Asia"],
-      "countries": ["Japan"],
-      "regions": [
-        "Throughout Japan, especially areas with historical famine or warfare"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
-      "origins": {
-        "period": "19th century",
-        "development": "Relatively modern yokai"
-      },
-      "famous_depiction": "Utagawa Kuniyoshi's 1844 woodblock print 'Takiyasha the Witch and the Skeleton Spectre'"
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Born from historical traumas of war and famine in Japanese history",
-      "earliest_accounts": "19th century, though may be inspired by earlier skeleton imagery",
-      "folklore_connections": "Connected to onryō (vengeful spirit) traditions and collective trauma narratives"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1844",
-        "event": "Utagawa Kuniyoshi creates famous woodblock print",
-        "significance": "Princess Takiyasha summoning giant skeleton becomes iconic image",
-        "source": "Takiyasha the Witch and the Skeleton Spectre (triptych print)"
-      },
-      {
-        "date": "19th century",
-        "event": "Gashadokuro enters yokai folklore",
-        "significance": "Becomes established as distinct yokai type"
-      },
-      {
-        "date": "20th-21st century",
-        "event": "Popular in modern media",
-        "significance": "Featured in anime, manga, video games"
-      }
-    ],
-    "cultural_context": "Represents collective trauma and fear of starvation, particularly resonant in nation with history of famines and wartime deprivation"
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "famous_story": "Princess Takiyasha summoning giant skeleton to attack her enemies (subject of Kuniyoshi print)",
-      "themes": [
-        "Consequences of war and famine",
-        "Collective suffering and grudges",
-        "Inescapable vengeance",
-        "Respect for the dead"
-      ]
-    },
-    "symbolism": {
-      "representations": [
-        "Collective trauma of starvation",
-        "Vengeful spirits of forgotten victims",
-        "Horror of mass death",
-        "Consequences of societal failure to feed population"
-      ]
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "anime_manga": [
-        "GeGeGe no Kitaro",
-        "Inuyasha",
-        "Ninja Scroll",
-        "Various horror manga"
-      ],
-      "games": [
-        "Nioh series",
-        "Sekiro: Shadows Die Twice",
-        "Final Fantasy series",
-        "Okami",
-        "Yo-kai Watch"
-      ],
-      "influence": "One of the most visually striking yokai, frequently adapted in horror and fantasy media"
-    },
-    "indigenous": {
-      "cultural_sensitivity": "⚠️ IMPORTANT: Gashadokuro represent real historical traumas (war, famine, mass starvation). Approach with respect for victims of historical suffering."
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "art_history": {
-    "famous_works": [
-      {
-        "title": "Takiyasha the Witch and the Skeleton Spectre",
-        "artist": "Utagawa Kuniyoshi",
-        "date": "1844",
-        "medium": "Woodblock print triptych",
-        "significance": "Most famous depiction of giant skeleton in Japanese art; defines visual representation of gashadokuro",
-        "description": "Princess Takiyasha summons giant skeleton to attack Mitsukuni. The skeleton emerging from behind screens became iconic image."
-      }
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "foster-2015",
-      "type": "book",
-      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
-      "authors": ["Michael Dylan Foster"],
-      "publication": "University of California Press",
-      "date": "2015",
-      "isbn": "978-0520271029"
-    },
-    {
-      "id": "meyer-2015",
-      "type": "book",
-      "title": "The Night Parade of One Hundred Demons: A Field Guide to Japanese Yokai",
-      "authors": ["Matthew Meyer"],
-      "publication": "Self-published",
-      "date": "2015"
-    },
-    {
-      "id": "yoda-alt-2016",
-      "type": "book",
-      "title": "Japandemonium Illustrated: The Yokai Encyclopedias of Toriyama Sekien",
-      "authors": ["Hiroko Yoda", "Matt Alt"],
-      "publication": "Dover Publications",
-      "date": "2016",
-      "isbn": "978-0486800356"
-    }
-  ]
+  "sources": []
 }
